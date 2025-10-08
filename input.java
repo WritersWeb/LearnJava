@@ -6,10 +6,13 @@ public class input {
 
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
 
        
 
         System.out.println("Hello "+ name);
+        System.out.println("A'm "+ age);
 
         scanner.close();
     }
