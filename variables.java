@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class variables{
    public static void main(String[] args) {
         int myNum;
@@ -5,7 +7,9 @@ public class variables{
         float myFloatNum = 5.99f;   
         char myLetter = 'D';        
         boolean myBool = true;     
-        String myText = "Hello";    
+        String myText = "Hello";   
+        
+        
         System.out.println(myNum);
         System.out.println(myFloatNum);
         System.out.println(myLetter);
@@ -18,11 +22,18 @@ public class variables{
         int age; 
         age = 25;
         System.out.println(age);
-        
 
-        double  weight = 65.5; 
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter your name : ");
+        String myName = scanner.nextLine();
+
+        double weight = 65.5; 
         System.out.println("My name is : " + name);
 
         System.out.println(name + "is " + weight + " kg.");
+
+        System.out.println("Your are "+ myName );
+        scanner.close();
     }
 }

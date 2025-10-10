@@ -1,4 +1,7 @@
+ import static java.lang.Math.*;
+
 public class operator {
+
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
@@ -27,5 +30,14 @@ public class operator {
         System.out.println("NOT x: " + (!x));
 
         System.out.println((a > b));
+
+        
+        double nom = 4;
+        double nume = sqrt(nom);
+
+        System.out.println(nume);
+
+        
+
     }
 }

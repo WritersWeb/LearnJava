@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GradeTracker",
+            "request": "launch",
+            "mainClass": "GradeTracker",
+            "projectName": "AndroidGroup_d4505f5f"
+        },
+        {
+            "type": "java",
+            "name": "arraysIV",
+            "request": "launch",
+            "mainClass": "arraysIV",
+            "projectName": "AndroidGroup_d4505f5f"
+        },
+        {
+            "type": "java",
+            "name": "whileLoop",
+            "request": "launch",
+            "mainClass": "whileLoop",
+            "projectName": "AndroidGroup_d4505f5f"
+        },
+        {
+            "type": "java",
+            "name": "grading",
+            "request": "launch",
+            "mainClass": "grading",
+            "projectName": "AndroidGroup_d4505f5f"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "AndroidGroup_d4505f5f"
+        },
+        {
+            "type": "java",
+            "name": "ifStatement",
+            "request": "launch",
+            "mainClass": "ifStatement",
+            "projectName": "AndroidGroup_d4505f5f"
+        },
+        {
+            "type": "java",
+            "name": "portal",
+            "request": "launch",
+            "mainClass": "portal",
+            "projectName": "AndroidGroup_d4505f5f"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
