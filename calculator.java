@@ -23,7 +23,7 @@ public class calculator{
             case "+":
             result = firstNo + secondNo;
             break;
-            case "-":
+            case "-":  
             result = firstNo - secondNo;
             break;
             case "*":

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mean",
+            "request": "launch",
+            "mainClass": "mean",
+            "projectName": "AndroidGroup_d4505f5f"
+        },
+        {
+            "type": "java",
             "name": "GradeTracker",
             "request": "launch",
             "mainClass": "GradeTracker",

@@ -17,7 +17,8 @@ myNum++;
 }while(myNum < 95); 
         
 //for loop
-    int i;
+    int i;              
+    
     for(i=10; i<35;i++) { 
 System.out.println(i); 
 }
