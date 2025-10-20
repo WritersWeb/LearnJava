@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 // --- Day 1: Classes, Objects, and Methods & Day 3: Inheritance ---
 class Person {
@@ -103,9 +102,14 @@ public class StudentManager {
                         int age = Integer.parseInt(parts[1].trim());
                         String id = parts[2].trim();
                         double gpa = Double.parseDouble(parts[3].trim());
+                        
+                        // Student constructor can throw IllegalArgumentException if GPA is bad
                         students.add(new Student(name, age, id, gpa));
-                    } catch (NumberFormatException | IllegalArgumentException e) {
-                        System.out.println("Warning: Skipping malformed record in file: " + line);
+                        
+                    // FIX: Catching IllegalArgumentException covers both NFE (subclass) 
+                    // and IAE (superclass) thrown by the Student constructor's setGpa().
+                    } catch (IllegalArgumentException e) { 
+                        System.out.println("Warning: Skipping malformed record in file due to data error or invalid GPA: " + line);
                     }
                 }
             }
