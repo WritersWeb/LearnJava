@@ -77,6 +77,6 @@ public class bank {
             System.out.println("Invalid choice please try again!");
         }
        } 
-         scanner.close();
+      
     }
 }
